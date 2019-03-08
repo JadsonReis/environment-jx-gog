@@ -14,7 +14,7 @@ expose:
   - --v
   - 4
   config:
-    exposer: Ingress
+    exposer: Route
     http: "true"
 jenkins:
   Servers:
