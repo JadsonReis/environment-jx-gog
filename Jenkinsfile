@@ -13,6 +13,7 @@ pipeline {
       steps {
         container('maven') {
           dir('env') {
+            sh 'jx step helm delete'
             sh 'jx step helm build'
           }
         }
