@@ -13,7 +13,6 @@ pipeline {
       steps {
         container('maven') {
           dir('env') {
-            sh 'jx step helm delete gog --purge'
             sh 'jx step helm build'
           }
         }
