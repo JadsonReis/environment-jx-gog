@@ -10,3 +10,6 @@ dependencies:
 - name: gog
   repository: http://jenkins-x-chartmuseum:8080
   version: 3.0.45
+- name: labb-python
+  repository: http://jenkins-x-chartmuseum:8080
+  version: 0.0.6
